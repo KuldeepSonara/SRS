@@ -1,0 +1,14 @@
+1.  void main() {
+2.      int i, j, k;
+3.      readln(i, j, k);
+4.      if ((i < j) || (i > k)) {
+5.          writeln("then part");
+6.          if (j < k)
+7.              writeln("j less than k");
+8.         else
+9.             writeln("j not less than k");
+10.     } 
+               11.   {
+12.         writeln("else Part");
+13.     }
+14. }
